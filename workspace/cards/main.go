@@ -4,5 +4,6 @@ package main
 
 func main() {
 	cards := newDeck()
-	cards.saveFile("myHand")
+	cards.shuffle()
+	cards.print()
 }
